@@ -9,7 +9,9 @@ body {
     font-family: Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;
 }
 
-
+ul,ol {
+  list-style: none;
+}
 
 li {
   display: inline;
