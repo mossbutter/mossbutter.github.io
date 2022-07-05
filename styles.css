@@ -16,11 +16,12 @@ h1 {
     background: #000;
     color: white;
     font-size: 30px;
-    margin-top: auto;
+    margin-top: auto
 }
 
 footer {
     font-family: Courier New;
+    margin-top: 100px;
 }
 
 p#outro {
@@ -32,4 +33,9 @@ p#outro {
 nav {
   margin-bottom: 30px;
   margin-top: auto;
+}
+
+section#contactCTA {
+  font-weight: inherit;
+  font-size: 13px;
 }
