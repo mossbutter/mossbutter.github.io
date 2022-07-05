@@ -1,12 +1,19 @@
 body {
-
     background-image: url(images/blurry-gradient-haikei.png);
     background-color:#e784e4;
     background-repeat: no-repeat;
-    height: 1000px;
     background-size: cover;
+    height: 1000px;
     text-align: center;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 100%;
+    font-family: Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;
+}
+
+
+
+li {
+  display: inline;
+  text-align:inherit;
 }
 
 h1 {
@@ -22,6 +29,7 @@ h1 {
 footer {
     font-family: Courier New;
     margin-top: 100px;
+    text-align:inherit;
 }
 
 p#outro {
@@ -33,7 +41,9 @@ p#outro {
 nav {
   margin-bottom: 30px;
   margin-top: auto;
+  margin-right: 30px;
 }
+
 
 section#contactCTA {
   font-weight: lighter;
