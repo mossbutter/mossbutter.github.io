@@ -1,7 +1,10 @@
 body {
-    margin: 0;
-    background-color:#e9d3d3;
-    background-image: url("blurry-gradient-haikei.svg") fixed center;
+
+    background-image: url(images/blurry-gradient-haikei.png);
+    background-color:#e784e4;
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: cover;
     text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -10,12 +13,26 @@ h1 {
     font-family: Lucida Console;
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
+    background: #000;
     color: white;
     font-size: 30px;
 }
 
-p {
-    text-decoration: underline;
+footer {
     font-family: Courier New;
+}
+
+p#outro {
+  font-style: italic;
+  font-size: 10px;
+  margin-top: -10px;
+}
+
+nav {
+  margin-bottom: 30px;
+  margin-top: auto;
+}
+
+section#introduction {
+
 }
