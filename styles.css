@@ -30,6 +30,10 @@ h1 {
 .banner img {
     width: 50%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
 }
 nav {
   margin-bottom: 30px;
@@ -42,6 +46,7 @@ section#contactCTA {
   font-weight: lighter;
   font-size: 13px;
   margin-bottom: 30px;
+  margin-top: 50px;
 }
 
 footer {
@@ -49,6 +54,8 @@ footer {
     margin-top: 100px;
     text-align: inherit;
     font-style: italic;
+    font-size: 10px;
+    background-color:#ffffff
 }
 
 a:link {
