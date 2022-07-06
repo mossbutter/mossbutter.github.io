@@ -15,35 +15,26 @@ ul,ol {
 
 li {
   display: inline;
-  text-align:inherit;
+  text-align: center;
 }
 
 h1 {
     font-family: Lucida Console;
     padding: 60px;
     text-align: center;
-    background: #000;
-    color: white;
+    color: #000;
     font-size: 30px;
     margin-top: auto
 }
 
-footer {
-    font-family: Courier New;
-    margin-top: 100px;
-    text-align:inherit;
+.banner img {
+    width: 50%;
+    height: auto;
 }
-
-p#outro {
-  font-style: italic;
-  font-size: 10px;
-  margin-top: -10px;
-}
-
 nav {
   margin-bottom: 30px;
-  margin-top: auto;
-  margin-right: 30px;
+  text-align: center;
+  margin-right: 40px;
 }
 
 
@@ -52,3 +43,23 @@ section#contactCTA {
   font-size: 13px;
   margin-bottom: 30px;
 }
+
+footer {
+    font-family: Courier New;
+    margin-top: 100px;
+    text-align: inherit;
+    font-style: italic;
+}
+
+a:link {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    color: #3a1f2e;
+}
+
+ a:hover {
+   color: #4e916a;
+ }
