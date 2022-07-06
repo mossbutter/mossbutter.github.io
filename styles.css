@@ -70,3 +70,9 @@ a:link {
  a:hover {
    color: #4e916a;
  }
+
+ a:visited {
+   text-decoration-line: underline;
+   text-decoration-style: wavy;
+   text-decoration-color: #ffffff;
+ }
