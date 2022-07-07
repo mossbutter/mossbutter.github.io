@@ -1,4 +1,5 @@
 body {
+    overflow: hidden;
     background-image: url(images/blurry-gradient-haikei.png);
     background-color:#e784e4;
     background-repeat: no-repeat;
