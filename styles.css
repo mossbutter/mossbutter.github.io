@@ -46,10 +46,13 @@ nav {
 
 
 footer {
-    display: fixed;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
     font-family: Courier New;
-    margin-top: 100px;
-    text-align: inherit;
+    text-align: center;
     font-style: italic;
     font-size: 10px;
     background-color:#ffffff
