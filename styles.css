@@ -39,17 +39,14 @@ nav {
   margin-bottom: 30px;
   text-align: center;
   margin-right: 40px;
+  font-size: 0.9em;
 }
 
 
-section#contactCTA {
-  font-weight: lighter;
-  font-size: 13px;
-  margin-bottom: 30px;
-  margin-top: 50px;
-}
+
 
 footer {
+    display: fixed;
     font-family: Courier New;
     margin-top: 100px;
     text-align: inherit;
@@ -76,3 +73,37 @@ a:link {
    text-decoration-style: wavy;
    text-decoration-color: #ffffff;
  }
+
+
+                 .box:before {
+                     content: "";
+                     z-index: -1;
+                     position: absolute;
+                     top: 0;
+                     right: 0;
+                     bottom: 0;
+                     left: 0;
+                     background: linear-gradient(-45deg, #ffd8be 0%, #9381ff 100% );
+                     transform: translate3d(0px, 20px, 0) scale(0.95);
+                     filter: blur(20px);
+                     opacity: var(0.48);
+                     transition: opacity 0.3s;
+                     border-radius: inherit;
+                 }
+
+                 /*
+                 * Prevents issues when the parent creates a
+                 * stacking context. (For example, using the transform
+                 * property )
+                 */
+                 .box::after {
+                     content: "";
+                     z-index: -1;
+                     position: absolute;
+                     top: 0;
+                     right: 0;
+                     bottom: 0;
+                     left: 0;
+                     background: inherit;
+                     border-radius: inherit;
+                 }
