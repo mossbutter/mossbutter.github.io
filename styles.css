@@ -19,8 +19,7 @@ li {
 }
 
 h1 {
-    font-family: Lucida Console;
-    padding: 60px;
+    padding: 0.2em;
     text-align: center;
     color: #000;
     font-size: 30px;
@@ -55,7 +54,7 @@ footer {
     text-align: center;
     font-style: italic;
     font-size: 10px;
-    background-color:#ffffff
+
 }
 
 a:link {
@@ -77,36 +76,35 @@ a:link {
    text-decoration-color: #ffffff;
  }
 
+ .box:before {
+                    content: "";
+                    z-index: -1;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    background: linear-gradient(-45deg, #ffd8be 0%, #9381ff 100% );
+                    transform: translate3d(0px, 20px, 0) scale(0.95);
+                    filter: blur(20px);
+                    opacity: var(0.48);
+                    transition: opacity 0.3s;
+                    border-radius: inherit;
+                }
 
-                 .box:before {
-                     content: "";
-                     z-index: -1;
-                     position: absolute;
-                     top: 0;
-                     right: 0;
-                     bottom: 0;
-                     left: 0;
-                     background: linear-gradient(-45deg, #ffd8be 0%, #9381ff 100% );
-                     transform: translate3d(0px, 20px, 0) scale(0.95);
-                     filter: blur(20px);
-                     opacity: var(0.48);
-                     transition: opacity 0.3s;
-                     border-radius: inherit;
-                 }
-
-                 /*
-                 * Prevents issues when the parent creates a
-                 * stacking context. (For example, using the transform
-                 * property )
-                 */
-                 .box::after {
-                     content: "";
-                     z-index: -1;
-                     position: absolute;
-                     top: 0;
-                     right: 0;
-                     bottom: 0;
-                     left: 0;
-                     background: inherit;
-                     border-radius: inherit;
-                 }
+                /*
+                * Prevents issues when the parent creates a
+                * stacking context. (For example, using the transform
+                * property )
+                */
+                .box::after {
+                    content: "";
+                    z-index: -1;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    background: inherit;
+                    border-radius: inherit;
+                }
