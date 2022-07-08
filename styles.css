@@ -1,111 +1,132 @@
+
 body {
-    overflow: hidden;
-    background-image: url(images/blurry-gradient-haikei.png);
-    background-color:#e784e4;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    text-align: center;
-    font-size: 100%;
-    font-family: Noto Sans,Trebuchet MS,Helvetica Neue,Arial,sans-serif;
+  background-color: #D4DCCD;
+  overflow: hidden;
+
 }
 
-ul,ol {
-  list-style: none;
+div#page-wrapper {
+  position: relative;
 }
 
-li {
-  display: inline;
-  text-align: center;
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 h1 {
-    padding: 0.2em;
-    text-align: center;
-    color: #000;
-    font-size: 30px;
-    margin-top: auto
-}
 
-.banner img {
-    width: 30%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -50px;
-}
-nav {
-  margin-bottom: 30px;
-  text-align: center;
-  margin-right: 40px;
-  font-size: 0.9em;
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  }
+
+img#footer-socials {
+  max-width: 20px;
+  width:160px;
+  padding: 10px;
+  margin: 0px;
 }
 
 
+div#footer-container {
+  margin-top: 400px;
+}
 
 
 footer {
-    display: block;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-    font-family: Courier New;
-    text-align: center;
-    font-style: italic;
-    font-size: 10px;
+  display: flex;
+  justify-content: flex-start;
 
+  margin-top: 30px;
+  padding: 20px;
+}
+
+footer > span {
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 60px;
+  font-size: 0.7em;
+  font-family: 'Podkova';
+}
+
+.logo > img {
+    width: 23%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.logo {
+  width: 55vw;
+}
+
+
+div#intro {
+  position: absolute;
+  width: 690px;
+  height: 55px;
+  left: 60px;
+  top: 200px;
+}
+
+ul {
+  list-style: none;
+  }
+
+li {
+        display: inline;
+        width:160px;
+        padding: 20px;
+        margin: 0px;
+        font-size: 0.9em;
+
+  }
+
+nav {
+        font-family: 'Nunito';
+        display: flex;
+        justify-content: flex-end;
+  }
+
+p {
+        font-family: 'Numans';
+        display: flex;
+
+}
+
+p.under-intro {
+      position: absolute;
+      font-size: 0.9em;
+      height: 50px;
+
+      top: 60px;
+}
+
+span.highlight {
+      background: #fff;
 }
 
 a:link {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: #ffffff;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 2px;
-    color: #3a1f2e;
+      color: #000;
+      text-decoration: none;
 }
-
- a:hover {
-   color: #4e916a;
- }
-
- a:visited {
-   text-decoration-line: underline;
-   text-decoration-style: wavy;
-   text-decoration-color: #ffffff;
- }
-
- .box:before {
-                    content: "";
-                    z-index: -1;
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                    bottom: 0;
-                    left: 0;
-                    background: linear-gradient(-45deg, #ffd8be 0%, #9381ff 100% );
-                    transform: translate3d(0px, 20px, 0) scale(0.95);
-                    filter: blur(20px);
-                    opacity: var(0.48);
-                    transition: opacity 0.3s;
-                    border-radius: inherit;
-                }
-
-                /*
-                * Prevents issues when the parent creates a
-                * stacking context. (For example, using the transform
-                * property )
-                */
-                .box::after {
-                    content: "";
-                    z-index: -1;
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                    bottom: 0;
-                    left: 0;
-                    background: inherit;
-                    border-radius: inherit;
-                }
+a:visited {
+      color: #000;
+}
+a:hover {
+      color: #000;
+      font-size: 20px;
+      background: #fff;
+}
+a:active {
+      color: #000;
+}
