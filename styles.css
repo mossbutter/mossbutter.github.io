@@ -36,6 +36,7 @@ img#footer-socials {
 
 
 div#footer-container {
+  position: fixed;
   margin-top: 400px;
 }
 
