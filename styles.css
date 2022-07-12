@@ -150,3 +150,12 @@ a:hover {
 a:active {
       color: #000;
 }
+
+a.credits {
+  font-size: 0.6em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 60px;
+  font-family: 'Podkova';
+}
