@@ -45,7 +45,6 @@ div#footer-container {
 footer {
   display: flex;
   justify-content: flex-start;
-
   margin-top: 30px;
   padding: 20px;
 }
@@ -78,6 +77,10 @@ div#intro {
   height: 55px;
   left: 60px;
   top: 200px;
+}
+
+div.container-body {
+
 }
 
 ul {
