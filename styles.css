@@ -1,6 +1,8 @@
 
 body {
-  background-color: #D4DCCD;
+  background-image: url(images/bgedited.png);
+  height: 500px;
+  background-position: center;
   overflow: hidden;
   font-family: Inter,system-ui,sans-serif;
 
@@ -21,10 +23,10 @@ header {
 }
 
 h1 {
-
-  font-family: 'Podkova';
-  font-style: normal;
-  font-weight: 400;
+  color: #EFAAC4;
+  font-family: 'Fraunces';
+  font-weight: medium;
+  font-style: italic;
   font-size: 40px;
   }
 
@@ -36,47 +38,62 @@ img#footer-socials {
 }
 
 
-div#footer-container {
-  position: fixed;
-  margin-top: 400px;
+section#footer-container {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100
+    color: white;
+    text-align: center;
 }
 
 
 footer {
   display: flex;
-  justify-content: flex-start;
-  margin-top: 30px;
-  padding: 20px;
-}
-
-footer > span {
-
-  display: flex;
   justify-content: flex-end;
-  align-items: center;
-  padding: 10px 60px;
-  font-size: 0.7em;
-  font-family: 'Podkova';
+  margin-top: 30px;
+  padding: 30px 60px;
+  color: #fff;
 }
+
+footer > a.social-link {
+  background-color: #fff;
+  margin-top: 10px;
+  opacity: 0.5;
+}
+
+footer > a.credits {
+  background-color: #fff;
+  margin-top: 10px;
+  opacity: 0.5;
+  color: #000;
+}
+
+
 
 
 .logo > img {
-    width: 40%;
+    width: 25%;
     display: flex;
     justify-content: flex-start;
 
 }
 
 @media screen and (max-width: 600px) {
-  .logo img {
+  .logo {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
-    padding-left: 25px;
-    width: 50%;
+    width: 1000%;
   }
 }
 
+@media screen and (max-width: 600px) {
+  div .header-container {
+      display: none;
+    }
+  }
 
 
 div#intro {
@@ -87,9 +104,7 @@ div#intro {
   top: 200px;
 }
 
-div.container-body {
 
-}
 
 ul {
   list-style: none;
@@ -108,8 +123,21 @@ nav {
         float: right;
         display: block;
         overflow: hidden;
-        font-family: 'Nunito';
+        font-family: 'Fraunces';
+        color: #ccdad4;
+        font-weight: medium;
   }
+
+
+  @media screen and (max-width: 600px) {
+    nav {
+      display: inline;
+    }
+  }
+
+img.nav-icon {
+  width: 15px;
+}
 
   @media screen and (max-width: 600px) {
       .topnav a {
@@ -118,26 +146,23 @@ nav {
     }
   }
 
-p {
-        font-family: 'Numans';
-        display: flex;
 
-}
 
 p.under-intro {
-      position: absolute;
+
       font-size: 0.9em;
       height: 50px;
-
+      font-family: 'Fraunces';
+      color: #D3DACC;
       top: 60px;
 }
 
 span.highlight {
-      background: #fff;
+      background: none;
 }
 
 a:link {
-      color: #000;
+      color: #fff;
       text-decoration: none;
 }
 a:visited {
@@ -145,8 +170,9 @@ a:visited {
 }
 a:hover {
       color: #000;
-      background: #fff;
+      background: #D3DACC;
 }
+
 a:active {
       color: #000;
 }
