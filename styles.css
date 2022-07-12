@@ -59,16 +59,24 @@ footer > span {
   font-family: 'Podkova';
 }
 
+
 .logo > img {
-    width: 23%;
+    width: 40%;
     display: flex;
     justify-content: flex-start;
 
 }
 
-.logo {
-  width: 55vw;
+@media screen and (max-width: 600px) {
+  .logo img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    width: 50%;
+  }
 }
+
 
 
 div#intro {
@@ -97,9 +105,17 @@ li {
   }
 
 nav {
+        float: right;
+        display: block;
+        overflow: hidden;
         font-family: 'Nunito';
-        display: flex;
-        justify-content: flex-end;
+  }
+
+  @media screen and (max-width: 600px) {
+      .topnav a {
+      float: none;
+      width: 100%;
+    }
   }
 
 p {
