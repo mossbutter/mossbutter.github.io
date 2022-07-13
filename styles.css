@@ -30,8 +30,10 @@ nav {
   display: flex;
   justify-content: flex-end;
   font-family: 'Fraunces';
-  font-weight: medium;
+  font-weight: bold;
+  font-size: 1em;
 }
+
 
 img.nav-icon {
   width: 11px;
