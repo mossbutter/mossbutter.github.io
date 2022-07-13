@@ -42,8 +42,13 @@ img#hero-img {
   float: right;
   width: 200px;
   border-radius: 50%;
-  filter: drop-shadow(8px 8px 100px #daccd7);
   filter: contrast(80%);
+}
+
+@media (max-width: 600px) {
+  .hero-image {
+    display: none;
+  }
 }
 
 
