@@ -38,6 +38,16 @@ img.nav-icon {
   opacity: 0.7;
 }
 
+img#hero-img {
+  float: right;
+  width: 200px;
+  border-radius: 50%;
+  filter: drop-shadow(8px 8px 100px #daccd7);
+  filter: contrast(80%);
+}
+
+
+
 div#intro {
   margin-top: 50px;
   padding: 40px 20px;
