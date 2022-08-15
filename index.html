@@ -1,48 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Mossbutter Design</title>
-    <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Fraunces&display=swap" rel="stylesheet" />
+<html>
+
+<head>
+    <title>System.css Starter</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css@0.1.0/dist/system.css" />
-  </head>
+</head>
 
-  <body>
-    <div id="header-wrapper">
-      <header id="header">
-        <img class="logo" src="images/logo1.png" alt="logo that read mossbutter">
-    <nav>
-      <ul>
-        <li>
-          <a class="nav-link" href="mailto:mossbutter@hotmail.com">contact</a> 
-          <img class="nav-icon" src="images/contact.png" alt="icon of a telephone">
-        </li>
-      </ul>
-    </nav>
-     </header>
-    </div>
+<body>
+    <section id="dropdown">
+        <details class="dropdown">
 
-<main>
+            <summary class="dd-toggle">
+                File
+            </summary>
 
-<section id="intro">
-    <h1><strong>Hi, my name is Joey.</strong></h1>
+            <ul class="dd-menu">
+                <li>Action</li>
+                <li>Another action</li>
+                <li>Something else here</li>
+                <li class="divider"></li>
+                <li>
+                    <a href="https://twitter.com/sakofchit">sakun's twitter</a>
+                </li>
+            </ul>
 
-    <p id="tagline" class="under-intro">I’m passionate
-      about accessible web design, development and
-      everything in-between. </p>
-<aside>
-  <div class="image-container">
-  <img id="hero-img" class="hero-image" src="images/caterpie.jpg" alt="photo of a little caterpillar">
-</div>
-</aside>
-</section>
-</main>
+        </details>
 
-<footer>
-<a class="credits" href="https://www.freepik.com/vectors/rainbow-light">Rainbow light vector created by upklyak</a>
-</footer>
+        <details class="dropdown">
 
-  </body>
+            <summary class="dd-toggle">
+                Edit
+            </summary>
+
+            <ul class="dd-menu">
+                <li>Woah</li>
+                <li class="divider"></li>
+                <li>Another action</li>
+                <li>Something else here</li>
+                <li class="divider"></li>
+                <li>
+                    <a href="https://sakun.co">sakun's projects</a>
+                </li>
+            </ul>
+
+        </details>
+
+        <details class="dropdown">
+
+            <summary class="dd-toggle">
+                View
+            </summary>
+
+            <ul class="dd-menu">
+                <li>Action</li>
+                <li>Another action</li>
+                <li>Something else here</li>
+                <li class="divider"></li>
+                <li>
+                    <a href="https://apple.com">Apple</a>
+                </li>
+            </ul>
+
+        </details>
+
+        <details class="dropdown">
+
+            <summary class="dd-toggle">
+                Special
+            </summary>
+
+            <ul class="dd-menu">
+                <li>You probably</li>
+                <li>Get the</li>
+                <li class="divider"></li>
+                <li>Idea</li>
+            </ul>
+
+        </details>
+    </section>
+
+    <header>
+
+    </header>
+    <main>
+     <section class="welcome-window">
+        <div class="window">
+            <div class="title-bar">
+                <button aria-label="Close" class="close"></button>
+                <h1 class="title">helloworld.exe</h1>
+                <button aria-label="Resize" class="resize"></button>
+            </div>
+
+
+            <div class="window-pane">
+                Welcome! I'm Joey. I'm passionate about web design, development and everything
+                in-between.
+                🌿
+                <div class="separator"></div>
+                <h1>This page is under construction.</h1>
+           
+                <img src="images/giphy.gif" alt="three skeletons dancing and boogying with flashing lights" />
+                <button class="btn"><a href="mailto:mossbutter@hotmail.com">Contact</button>
+            </div>
+        </div>
+
+       </section>
+    </main>
+
+
+
+</body>
+
 </html>
