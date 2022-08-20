@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background-image: url("/images/clouds.jpg") !important;
   overflow: hidden;
 }
 body #dropdown {
@@ -11,14 +12,18 @@ header {
   padding: 5rem;
 }
 
-.button {
-  display: block;
-  margin: 0 auto;
+h1 {
+  margin-top: -500px;
+  margin: 2rem;
 }
 
 .standard-dialog {
   display: flex;
-  flex-direction: column;
+}
+
+.butt-nav {
+  display: flex;
+  flex-direction: row;
 }
 
 div.container {
